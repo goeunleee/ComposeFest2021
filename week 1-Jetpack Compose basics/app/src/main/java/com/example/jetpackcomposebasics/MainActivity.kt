@@ -117,7 +117,7 @@ fun DefaultPreview() {
     }
 }
 
-// 12. Styling and theming your app
+// 12. Styling and theming your app.
 @Preview(
     showBackground = true, widthDp = 320,
     uiMode = UI_MODE_NIGHT_YES,
