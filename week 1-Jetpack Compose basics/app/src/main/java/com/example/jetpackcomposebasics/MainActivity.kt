@@ -40,7 +40,7 @@ fun Greeting(name: String) {
         backgroundColor = MaterialTheme.colors.primary,
         modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
     ) {
-        CardContent(name = name)
+        CardContent(name)
     }
 }
 
