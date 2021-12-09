@@ -6,6 +6,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
+<<<<<<< HEAD
+=======
+import androidx.compose.animation.core.animateDpAsState
+>>>>>>> 644ba2b (jetpack codelab week1)
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,6 +19,10 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.runtime.*
+<<<<<<< HEAD
+=======
+import androidx.compose.runtime.saveable.rememberSaveable
+>>>>>>> 644ba2b (jetpack codelab week1)
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -40,7 +48,11 @@ fun Greeting(name: String) {
         backgroundColor = MaterialTheme.colors.primary,
         modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
     ) {
+<<<<<<< HEAD
         CardContent(name)
+=======
+        CardContent(name = name)
+>>>>>>> 644ba2b (jetpack codelab week1)
     }
 }
 
@@ -117,7 +129,11 @@ fun DefaultPreview() {
     }
 }
 
+<<<<<<< HEAD
 // 12. Styling and theming your app.
+=======
+// 12. Styling and theming your app
+>>>>>>> 644ba2b (jetpack codelab week1)
 @Preview(
     showBackground = true, widthDp = 320,
     uiMode = UI_MODE_NIGHT_YES,
